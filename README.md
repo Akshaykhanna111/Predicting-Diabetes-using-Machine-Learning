@@ -3,25 +3,32 @@
 In this project, we addressed a supervised machine learning problem using a dataset related to diabetes. The dataset, originating from the National Institute of Diabetes and Digestive and Kidney Diseases, aims to predict whether a patient has diabetes based on diagnostic measurements.
 
 ### Steps
-1. Importing Packages
+1. Importing Packages:
+   
 We started by importing necessary Python packages to facilitate our analysis and model training.
 
-2. Loading the Dataset
+2. Loading the Dataset:
+   
 The diabetes dataset was loaded for exploration and modeling.
 
-3. Exploratory Data Analysis (EDA)
+3. Exploratory Data Analysis (EDA):
+   
 We conducted an in-depth exploratory data analysis, covering aspects such as missing values, relationships between predictor variables and the dependent variable, correlation between predictors, distribution analysis, and outlier detection.
 
-4. Preprocessing and Feature Engineering
+4. Preprocessing and Feature Engineering:
+   
 Steps included dividing the dataset into training and testing sets, handling missing values, treating outliers, scaling and normalization, and addressing class imbalance using SMOTE.
 
-5. Training the Model
+5. Training the Model:
+   
 We trained various models, including Random Forest and Logistic Regression, on both imbalanced and balanced datasets. Model evaluation metrics, including recall, precision, and accuracy, were used to assess performance. Hyperparameter tuning was performed to optimize model performance.
 
-6. Final Model Selection
+6. Final Model Selection:
+   
 The Random Forest model, with hyperparameter tuning and feature selection, demonstrated the best performance, and it was chosen as the final model.
 
-7. Model Deployment
+8. Model Deployment:
+   
 The final Random Forest model was retrained on the entire dataset and saved as a joblib file for future use.
 
 ### Repo Structure
