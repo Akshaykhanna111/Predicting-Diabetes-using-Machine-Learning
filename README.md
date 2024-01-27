@@ -83,3 +83,11 @@ Key steps that improved random forest performance:
 - Hyperparameter tuning of Random Forest using randomized search (Recall on test set rose from 75% to 78%.)
 - Dropping predictors that were stastically not significant (Recall on test set rose from 78% to 80%.)
 - Random Forest, after hyperparameter tuning and feature selection, emerged as the best-performing model with a test recall of 80%.
+
+### Challenges 
+
+- The size of the dataset was very small
+- There was class imbalance in the dataset
+- Limited set of features was available (No demographic details were available apart from age)
+
+  
