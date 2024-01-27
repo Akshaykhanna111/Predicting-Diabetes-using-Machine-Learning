@@ -32,10 +32,21 @@ The Random Forest model, with hyperparameter tuning and feature selection, demon
 The final Random Forest model was retrained on the entire dataset and saved as a joblib file for future use.
 
 ### Repo Structure
-Notebooks: Contains the Jupyter notebook for the predictive modeling.
-Diabetes: Holds the original diabetes dataset in CSV format.
-Model: Contains the final trained Random Forest model saved in a joblib file.
-Readme: This file providing an overview and instructions on how to use the repo.
+Notebooks: 
+
+Contains the Jupyter notebook for the predictive modeling.
+
+Diabetes: 
+
+Holds the original diabetes dataset in CSV format.
+
+Model: 
+
+Contains the final trained Random Forest model saved in a joblib file.
+
+Readme: 
+
+This file providing an overview and instructions on how to use the repo.
 
 ### Instructions for Use
 Clone the repository to your local machine.
