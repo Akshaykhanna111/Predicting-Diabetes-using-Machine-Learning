@@ -49,12 +49,14 @@ Readme:
 This file providing an overview and instructions on how to use the repo.
 
 ### Instructions for Use
-Clone the repository to your local machine.
-Open the Jupyter notebook in the "Notebooks" folder to review the predictive modeling process.
-Explore the "Diabetes" folder for the original dataset.
-Access the final trained model in the "Model" folder.
-Follow the guidance in this README file for a comprehensive understanding of the project.
+
+- Clone the repository to your local machine.
+- Open the Jupyter notebook in the "Notebooks" folder to review the predictive modeling process.
+- Explore the "Diabetes" folder for the original dataset.
+- Access the final trained model in the "Model" folder.
+- Follow the guidance in this README file for a comprehensive understanding of the project.
 
 ### Key Findings
-Blood pressure was found to be a non-significant predictor and was dropped from the feature set.
-Random Forest, after hyperparameter tuning and feature selection, emerged as the best-performing model with a test recall of 80%.
+
+- Blood pressure was found to be a non-significant predictor and was dropped from the feature set.
+- Random Forest, after hyperparameter tuning and feature selection, emerged as the best-performing model with a test recall of 80%.
