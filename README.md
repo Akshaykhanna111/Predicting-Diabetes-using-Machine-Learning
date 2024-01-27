@@ -1,6 +1,6 @@
 # Diabetes Prediction Project
-About the Project
-In this project, we addressed a supervised learning machine learning problem using a dataset related to diabetes. The dataset, originating from the National Institute of Diabetes and Digestive and Kidney Diseases, aims to predict whether a patient has diabetes based on diagnostic measurements.
+
+In this project, we addressed a supervised machine learning problem using a dataset related to diabetes. The dataset, originating from the National Institute of Diabetes and Digestive and Kidney Diseases, aims to predict whether a patient has diabetes based on diagnostic measurements.
 
 ### Steps
 1. Importing Packages
