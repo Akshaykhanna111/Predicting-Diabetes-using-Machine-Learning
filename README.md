@@ -90,4 +90,8 @@ Key steps that improved random forest performance:
 - There was class imbalance in the dataset
 - Limited set of features was available (No demographic details were available apart from age)
 
-  
+### Future Goals
+
+- Train the model on a larger dataset and with more variables.
+- Try various other models to see if the overall model performance can be increased further.
+- Try PCA and few more feature engineering techniques to lift the model performance.
