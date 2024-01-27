@@ -1,16 +1,42 @@
-# machine_learning_project-supervised-learning
+# Diabetes Prediction Project
+About the Project
+In this project, we addressed a supervised learning machine learning problem using a dataset related to diabetes. The dataset, originating from the National Institute of Diabetes and Digestive and Kidney Diseases, aims to predict whether a patient has diabetes based on diagnostic measurements.
 
-## Project Outcomes
-- Supervised Learning: use supervised learning techniques to build a machine learning model that can predict whether a patient has diabetes or not, based on certain diagnostic measurements.The project involves three main parts: exploratory data analysis, preprocessing and feature engineering, and training a machine learning model. 
-### Duration:
-Approximately 3 hours and 20 minutes.
-### Project Description:
-In this projects, you will apply supervised learning techniques to a real-world data set and use data visualization tools to communicate the insights gained from the analysis.
+### Steps
+1. Importing Packages
+We started by importing necessary Python packages to facilitate our analysis and model training.
 
-The data set for this project is the "Diabetes" dataset from the National Institute of Diabetes and Digestive and Kidney Diseases 
-The project will involve the following tasks:
+2. Loading the Dataset
+The diabetes dataset was loaded for exploration and modeling.
 
--	Exploratory data analysis and pre-processing: We will import and clean the data sets, analyze and visualize the relationships between the different variables, handle missing values and outliers, and perform feature engineering as needed.
--	Supervised learning: We will use the Diabetes dataset to build a machine learning model that can predict whether a patient has diabetes or not, using appropriate evaluation metrics such as accuracy, precision, recall, F1-score, and ROC-AUC. We will select at least two models, including one ensemble model, and compare their performance.
+3. Exploratory Data Analysis (EDA)
+We conducted an in-depth exploratory data analysis, covering aspects such as missing values, relationships between predictor variables and the dependent variable, correlation between predictors, distribution analysis, and outlier detection.
 
-The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
+4. Preprocessing and Feature Engineering
+Steps included dividing the dataset into training and testing sets, handling missing values, treating outliers, scaling and normalization, and addressing class imbalance using SMOTE.
+
+5. Training the Model
+We trained various models, including Random Forest and Logistic Regression, on both imbalanced and balanced datasets. Model evaluation metrics, including recall, precision, and accuracy, were used to assess performance. Hyperparameter tuning was performed to optimize model performance.
+
+6. Final Model Selection
+The Random Forest model, with hyperparameter tuning and feature selection, demonstrated the best performance, and it was chosen as the final model.
+
+7. Model Deployment
+The final Random Forest model was retrained on the entire dataset and saved as a joblib file for future use.
+
+### Repo Structure
+Notebooks: Contains the Jupyter notebook for the predictive modeling.
+Diabetes: Holds the original diabetes dataset in CSV format.
+Model: Contains the final trained Random Forest model saved in a joblib file.
+Readme: This file providing an overview and instructions on how to use the repo.
+
+### Instructions for Use
+Clone the repository to your local machine.
+Open the Jupyter notebook in the "Notebooks" folder to review the predictive modeling process.
+Explore the "Diabetes" folder for the original dataset.
+Access the final trained model in the "Model" folder.
+Follow the guidance in this README file for a comprehensive understanding of the project.
+
+### Key Findings
+Blood pressure was found to be a non-significant predictor and was dropped from the feature set.
+Random Forest, after hyperparameter tuning and feature selection, emerged as the best-performing model with a test recall of 80%.
