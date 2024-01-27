@@ -60,3 +60,26 @@ This file providing an overview and instructions on how to use the repo.
 
 - Blood pressure was found to be a non-significant predictor and was dropped from the feature set.
 - Random Forest, after hyperparameter tuning and feature selection, emerged as the best-performing model with a test recall of 80%.
+
+### Other Findings - 
+
+#### EDA
+
+1. No missing values 
+2. Outliers were less than 5%. 
+3. Multicollinearity - There was no multicollinearity between predictor variables (except age and pregnancies - 0.54)
+4. Skewness - Most of the predictor variables were slightly skewed but did not require any transformation to gaussian as the sahpiro-wilk test p value was significant for all of them. 
+5. Feature Importance - All were found to be stastically significant (Independent T-test) w.r.t to occurence of Diabetes except Blood Pressure. (Following 5 factors are significantly associated with diabetes occurence - Glucose, BMI, Age, Preganancies, DiabetesPedigreeFunction)
+6. Predictor Distribution Analysis w.r.t Outcome - 
+- Female patients with pregnancy in past tend to be more likely to have diabetes
+- Higher glucose is associated with high likelihood of Diabetes
+- Likelihood of Diabetes increases with Age
+7. Dataset had class imbalance which was treated using SMOTE
+
+#### Modeling
+
+Key steps that improved random forest performance: 
+- Balancing the dataset using SMOTE based approach (Recall on test set rose from 73% to 75%.)
+- Hyperparameter tuning of Random Forest using randomized search (Recall on test set rose from 75% to 78%.)
+- Dropping predictors that were stastically not significant (Recall on test set rose from 78% to 80%.)
+- Random Forest, after hyperparameter tuning and feature selection, emerged as the best-performing model with a test recall of 80%.
